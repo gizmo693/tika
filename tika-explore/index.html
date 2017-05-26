@@ -1,0 +1,112 @@
+<!doctype <html>
+
+<html>
+<head>
+	<title>Tika Explore</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="styles/main.css">
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Load c3.css -->
+<link href="external/c3/c3.css" rel="stylesheet" type="text/css">
+
+<!-- Load d3.js and c3.js -->
+
+
+</head>
+
+
+
+
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-default redbackground navbar-custom">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/tikawhite.png"></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Module <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">File Types</a></li>
+								<li><a href="#">Exception Types</a></li>
+								<li><a href="#">Stack Traces</a></li>
+								<li><a href="#">Number of Metadata Values</a></li>
+								<li><a href="#">Attachments</a></li>
+								<li><a href="#">Detected Languages</a></li>
+								<li><a href="#">Content Differences Identified By Huerite Threshold</a></li>    <li><a href="#">Time to Process</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Help</a>
+						</li>
+
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="red center">FILE TYPES</h1> 
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-offset-4 col-md-4 center">
+				<form class="form-inline">
+					<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Top 10
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Bottom 10
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> All
+</label>
+				</form>
+			</div>
+
+		</div>
+
+		<div id="chart">
+..
+		<div>
+	</body>
+	</html>
+
+
+
+<script src="external/d3/d3.min.js" charset="utf-8"></script>
+<script src="external/c3/c3.min.js"></script>
+<script src="charts/charts.js"></script>
